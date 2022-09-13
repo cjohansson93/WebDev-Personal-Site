@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #753422;
+}
+h1 {
+    margin-top: 0;
+    color: maroon;
+}
+h2 {
+    color: orangered;
+}
+.top-container { 
+    background-color: #E6D2AA; 
+    width: 200px; 
+    height: 200px; 
+    border: 10px solid; 
+    border-color: #D36B00;
+    padding: 20px; 
+} 
+     
+.middle-container { 
+    width: 200px; 
+    height: 200px; 
+    background-color: #FECD70; 
+    border: 20px solid;
+    border-color: #D36B00;
+    margin-left: 260px; 
+} 
+.bottom-container { 
+    width: 200px; 
+    height: 200px; 
+    background-color: #F2D388; 
+    border: 10px solid;
+    border-color: #D36B00; 
+    margin-left: 500px; 
+} 
