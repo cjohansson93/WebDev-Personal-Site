@@ -16,6 +16,22 @@ h2 {
 p {
     color: #42032C;
 }
+
+td {
+    color: #42032C;
+}
+
+hr {
+    background-color: #D36B00;
+    border-width: 1.7px;
+    height: 1px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 .top-box {
     background-color: #FEE0C0; 
     border: 10px solid; 
