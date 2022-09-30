@@ -13,32 +13,37 @@ h2 {
     position: relative;
     z-index: 999;
 }
+p {
+    color: #42032C;
+}
 .top-box {
-    background-color: #ecd6a9; 
+    background-color: #FEE0C0; 
     border: 10px solid; 
-    border-color: #df8f40;
+    border-color: #D36B00;
     padding: 30px;
 } 
      
 .middle-box { 
-    background-color: #f7d48e; 
+    background-color: #F5C7A9; 
     border: 20px solid;
     border-color: #42032C;
     padding: 20px;
 } 
 .bottom-box {  
-    background-color: #f8d996; 
+    background-color: #FEE0C0; 
     border: 10px solid;
-    border-color: #df8f40; 
+    border-color: #D36B00; 
     padding: 30px;
 } 
 .bottom-cloud {
+    filter: invert(100%);
     position: relative;
     bottom:150px;
     width: 100px; 
     height: 100px; 
 }
 .top-cloud {
+    filter: invert(100%);
     position: relative;
     bottom: 10px;
     left: 90px;
@@ -46,6 +51,8 @@ h2 {
     height: 200px;
 }
 .mountains {
+    filter: invert();
+    filter: sepia(100%);
     position: relative;
     top: 82px;
     left: 100px;
